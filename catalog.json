@@ -1,0 +1,162 @@
+[
+  {
+    "id": "line",
+    "name": "基础折线图",
+    "category": "line",
+    "source": "templates/line/line.py",
+    "preview": "previews/line.png",
+    "requirements": "任意行，2 列数值：x、y。"
+  },
+  {
+    "id": "step",
+    "name": "阶梯图",
+    "category": "line",
+    "source": "templates/line/step.py",
+    "preview": "previews/step.png",
+    "requirements": "任意行，2 列数值：x、y。"
+  },
+  {
+    "id": "area",
+    "name": "面积图",
+    "category": "line",
+    "source": "templates/line/area.py",
+    "preview": "previews/area.png",
+    "requirements": "任意行，2 列数值：x、y。"
+  },
+  {
+    "id": "errorbar",
+    "name": "误差棒图",
+    "category": "line",
+    "source": "templates/line/errorbar.py",
+    "preview": "previews/errorbar.png",
+    "requirements": "任意行，3 列数值：x、均值、非负误差。"
+  },
+  {
+    "id": "confidence_band",
+    "name": "置信区间带",
+    "category": "line",
+    "source": "templates/line/confidence_band.py",
+    "preview": "previews/confidence_band.png",
+    "requirements": "任意行，4 列数值：x、中心值、下界、上界。"
+  },
+  {
+    "id": "bar",
+    "name": "柱状图",
+    "category": "bar",
+    "source": "templates/bar/bar.py",
+    "preview": "previews/bar.png",
+    "requirements": "任意行，2 列：类别、数值。"
+  },
+  {
+    "id": "horizontal_bar",
+    "name": "水平柱状图",
+    "category": "bar",
+    "source": "templates/bar/horizontal_bar.py",
+    "preview": "previews/horizontal_bar.png",
+    "requirements": "任意行，2 列：类别、数值。"
+  },
+  {
+    "id": "grouped_bar",
+    "name": "分组柱状图",
+    "category": "bar",
+    "source": "templates/bar/grouped_bar.py",
+    "preview": "previews/grouped_bar.png",
+    "requirements": "任意行，3 列：类别、序列 A、序列 B。"
+  },
+  {
+    "id": "stacked_bar",
+    "name": "堆叠柱状图",
+    "category": "bar",
+    "source": "templates/bar/stacked_bar.py",
+    "preview": "previews/stacked_bar.png",
+    "requirements": "任意行，3 列：类别、部分 A、部分 B（通常非负）。"
+  },
+  {
+    "id": "lollipop",
+    "name": "棒棒糖图",
+    "category": "bar",
+    "source": "templates/bar/lollipop.py",
+    "preview": "previews/lollipop.png",
+    "requirements": "任意行，2 列：类别、数值。"
+  },
+  {
+    "id": "scatter",
+    "name": "散点图",
+    "category": "scatter",
+    "source": "templates/scatter/scatter.py",
+    "preview": "previews/scatter.png",
+    "requirements": "任意行，2 列数值：x、y。"
+  },
+  {
+    "id": "bubble",
+    "name": "气泡图",
+    "category": "scatter",
+    "source": "templates/scatter/bubble.py",
+    "preview": "previews/bubble.png",
+    "requirements": "任意行，3 列数值：x、y、气泡大小。"
+  },
+  {
+    "id": "regression",
+    "name": "线性拟合图",
+    "category": "scatter",
+    "source": "templates/scatter/regression.py",
+    "preview": "previews/regression.png",
+    "requirements": "至少 2 行、2 列数值：x、y；x 不可全部相同。"
+  },
+  {
+    "id": "histogram",
+    "name": "直方图",
+    "category": "distribution",
+    "source": "templates/distribution/histogram.py",
+    "preview": "previews/histogram.png",
+    "requirements": "至少 1 行、1 列数值：样本。"
+  },
+  {
+    "id": "boxplot",
+    "name": "箱线图",
+    "category": "distribution",
+    "source": "templates/distribution/boxplot.py",
+    "preview": "previews/boxplot.png",
+    "requirements": "至少 2 行、2 列数值：两组等长样本。"
+  },
+  {
+    "id": "violin",
+    "name": "小提琴图",
+    "category": "distribution",
+    "source": "templates/distribution/violin.py",
+    "preview": "previews/violin.png",
+    "requirements": "至少 2 行、2 列数值：两组样本，各组应有变化。"
+  },
+  {
+    "id": "ecdf",
+    "name": "经验累积分布",
+    "category": "distribution",
+    "source": "templates/distribution/ecdf.py",
+    "preview": "previews/ecdf.png",
+    "requirements": "至少 1 行、1 列数值：样本。"
+  },
+  {
+    "id": "heatmap",
+    "name": "矩阵热力图",
+    "category": "heatmap",
+    "source": "templates/heatmap/heatmap.py",
+    "preview": "previews/heatmap.png",
+    "requirements": "任意行，固定 3 列数值矩阵（可自行修改列数）。"
+  },
+  {
+    "id": "correlation",
+    "name": "相关系数矩阵",
+    "category": "heatmap",
+    "source": "templates/heatmap/correlation.py",
+    "preview": "previews/correlation.png",
+    "requirements": "至少 3 行、3 列数值：三个变量，各列不可为常数。"
+  },
+  {
+    "id": "scatter_3d",
+    "name": "三维散点图",
+    "category": "three-dimensional",
+    "source": "templates/three-dimensional/scatter_3d.py",
+    "preview": "previews/scatter_3d.png",
+    "requirements": "任意行，3 列数值：x、y、z。"
+  }
+]
